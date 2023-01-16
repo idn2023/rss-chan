@@ -26,7 +26,7 @@
       },
       "DELAY": {
         "description": "The delay between each feed request. Set to 600s (10 mins) by default.",
-        "value": "600",
+        "value": "10",
         "required":true
       },
       "CUSTOM_MESSAGES": {
@@ -37,7 +37,7 @@
     "formation": {
             "worker": {
                 "quantity": 1,
-                "size": "eco"
+                "size": "basic"
             }
       }
 }
